@@ -36,8 +36,6 @@
         }
         main {
             font-family: Courier New, Arial, Serif;
-            justify-content: center;
-            align-items: center;
             height: 100vh;
         }
         .image {
@@ -51,6 +49,13 @@
         @media screen and (min-width: 600px) { 
             main {
                 display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
     </style>
@@ -59,7 +64,7 @@
     <main>
         <img class="image" src="cooking.png" />
 
-        <div>
+        <div class="text">
             <h1>We are cooking a new website</h1>
             <p>For any enquiries please get in touch via email</p>
             <p>at <strong>david@davidpigrambespokedining.com</strong></p>
